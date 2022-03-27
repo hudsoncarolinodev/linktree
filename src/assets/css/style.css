@@ -1,0 +1,41 @@
+/*
+Theme Name: Neguinho Screen
+Theme URI: http://www.hudsoncarolino.com.br
+Author: Hudson Carolino
+Author URI: https://hudsoncarolino.com.br;
+Description: Descrição do thema.
+Version: 1.0
+
+--------------------------------------------
+ESTRUTURAÇÃO BASE
+--------------------------------------------
+**** DECLARAÇÃO DE VARIÁVEIS
+**** ESTILOS GERAIS
+**** BODY
+**** HEADER
+**** FOOTER
+**** PÁGINA INICIAL
+**** EXTRAS
+**** @MEDIA
+*/
+
+/* DECLARAÇÃO DE VARIÁVEIS */
+:root{
+  --lato: 'Lato';
+  --lora: 'Lora';
+
+}
+
+/* ESTILOS GERAIS */
+html, body, figure, header,img, div, section, article, input, button, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: var(--lato);
+
+}
