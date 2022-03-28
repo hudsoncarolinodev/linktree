@@ -39,6 +39,7 @@ body a{
 .container{
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 li a svg{
@@ -78,7 +79,8 @@ main ul{
   gap: 15px;
 }
 main ul li{
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   border: 2px solid #fff;
 }
 main ul li a{
@@ -112,6 +114,7 @@ footer ul{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 footer ul li{
   font-size: 14px;
@@ -125,3 +128,10 @@ footer ul li a svg{
   width: 18px;
 }
 footer ul li a p{}
+
+@media screen and (max-width: 500px) {
+  footer{
+    position: unset;
+    margin-top: 50px;
+  }
+}
